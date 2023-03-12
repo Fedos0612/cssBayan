@@ -16,3 +16,28 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.5em;
 }
+a {
+    width: 100%;
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    
+    color: black;
+    text-decoration: none;
+}
+
+.item span {
+    
+   display: none;
+   width: 100%;
+   animation: animate .5s ease-in-out;
+   
+}
+
+
+.item:hover span, .item:focus span {
+   display: block;
+
+}
