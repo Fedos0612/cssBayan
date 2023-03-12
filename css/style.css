@@ -41,3 +41,15 @@ a:hover {
    display: block;
 
 }
+
+@keyframes animate {
+    0%{
+        bottom: 50px;
+        opacity: 0;
+    }
+
+    100%{
+        bottom: 100px;
+        opacity: 1;
+    }
+} 
